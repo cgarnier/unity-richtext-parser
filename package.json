@@ -1,0 +1,17 @@
+{
+  "name": "unity-richtext-parser",
+  "version": "0.0.1",
+  "description": "A rich text parser for Unity rich text",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha",
+    "dev": "nodemon --exec mocha"
+  },
+  "author": "Clément Garnier <cle.garnier@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0"
+  }
+}
