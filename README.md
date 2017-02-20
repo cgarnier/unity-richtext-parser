@@ -11,14 +11,14 @@ npm install --save uniy-richtext-parser
 
   * Usage
 
-```ecmascript 6
+```javascript
 import parser from 'unity-richtext-parser'
 let result = parser.parse(text)
 ```
 
 ## Development 
 
-```
+```bash
 npm install
 npm run dev
 ```
