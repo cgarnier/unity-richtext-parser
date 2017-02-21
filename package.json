@@ -2,20 +2,27 @@
   "name": "unity-richtext-parser",
   "version": "0.1.0",
   "description": "A rich text parser for Unity rich text",
-  "main": "src/index.js",
+  "main": "dist/index.min.js",
   "scripts": {
     "test": "mocha",
-    "dev": "nodemon --exec mocha"
+    "dev": "nodemon --ignore dist/ --exec \"npm run build && mocha\"",
+    "build": "gulp"
   },
   "author": "Clément Garnier <cle.garnier@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
     "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^2.0.1",
     "mocha": "^3.2.0",
     "nodemon": "^1.11.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/cgarnier/unity-richtext-parser.git"
-  }
+  },
+  "dependencies": {}
 }

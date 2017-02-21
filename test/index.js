@@ -1,6 +1,6 @@
 const assert = require('chai').assert;
 
-const parser = require('../src/index');
+const parser = require('../dist/index.min');
 
 describe('Parser', () => {
   it('Should be an object', () => {

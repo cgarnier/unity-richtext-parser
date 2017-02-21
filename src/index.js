@@ -47,7 +47,8 @@ const parsers = {
         throw new Error('Wrong color code or color name')
       }
 
-      return `<span style="color: ${one.slice(0,7)};">${two}</span>`}
+      return `<span style="color: ${one.slice(0,7)};">${two}</span>`
+    }
   }
 };
 
