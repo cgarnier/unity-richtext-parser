@@ -22,3 +22,7 @@ let result = parser.parse(text)
 npm install
 npm run dev
 ```
+
+```bash
+npm run build
+```
